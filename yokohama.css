@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap')
+
+html{
+    font-size: 100%;
+}
+
+body{
+    background-color: black;
+    color:white;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.photo .head{
+display: flex;
+/* position: absolute;
+top: 0%; */
+}
+
+.photo .head h1{
+    max-width: 960px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* padding: 0 4%; */
+    /* position: absolute; */
+    /* top:0%; */
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.photo .head ul a{
+    color:wheat;
+    font-size: 19px;
+}
+
+
+.photo .head ul{
+    position: absolute;
+    top: 55px;
+    right: 0%;
+}
+
+.photo .head li{
+    display: inline-block;
+}
+
+.photo img{
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+
+
+.photo .figure{
+    position: absolute;
+    right: 0%;
+    width: 100%;
+    height: 130px;
+    top: 0%;
+    background: rgba(112, 111, 111, 0.85);
+}
+
+.photo .head video{
+    position: absolute;
+    top: 0%;
+}
+
+h2{
+    position: absolute;
+    top: 215px;
+    left: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color: rgba(42, 44, 46,0.7);
+}
+
+h3{
+    position: absolute;
+    top: 272px;
+    left: 110px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color:rgba(42, 44, 46,0.55);
+}
+
+h4{
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    font-size: 40px;
+    color:transparent;
+    -webkit-text-stroke: 1px deepskyblue;
+}
+
+h5{
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    font-size: 40px;
+    color:transparent;
+}
+
+p{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+
+.syasin ul img{
+    width: 300px;
+    height: auto;
+
+}
+.syasin ul{
+    text-align: center;
+}
+
+.syasin li{
+    display: inline-block;
+    margin: 50px;
+}
+
+.phot{
+text-align: center;
+}
+
+.phot p{
+    font-size: 20px;
+}
+
+.phot img{
+    width: 80%;
+    height: auto; 
+    margin: auto;
+}
